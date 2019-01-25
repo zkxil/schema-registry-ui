@@ -88,7 +88,7 @@ const config = {
     },
     devServer: {
         host: "localhost",
-        port: "50013",
+        port: "50003",
         contentBase: path.resolve(__dirname, "dist"),
         //compress: true,
         historyApiFallback: true,
