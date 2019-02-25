@@ -7,7 +7,7 @@ RUN curl -s http://nodejs.org/dist/v6.9.4/node-v6.9.4-linux-x64.tar.gz | tar --s
 
 ADD ./ /app
 
-RUN cd /app && /docker_install.sh
+RUN cd /app && ./docker_install.sh
 
 EXPOSE 8081
 
