@@ -13,4 +13,4 @@ EXPOSE 8081
 
 WORKDIR /app
 
-ENTRYPOINT ["/docker_start.sh"]
+ENTRYPOINT ./docker_start.sh
