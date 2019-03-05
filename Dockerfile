@@ -9,7 +9,7 @@ ADD ./ /app
 
 RUN cd /app && chmod 775 docker_install.sh && chmod 775 docker_start.sh && ./docker_install.sh
 
-EXPOSE 8081
+EXPOSE 50013
 
 WORKDIR /app
 
